@@ -46,3 +46,10 @@ A figure that is in the website but not in the PDF version.
 +++
 
 Moreover, sometimes you want to have content [only showing up](xref:myst-guide/creating-pdf-documents#including-content-with-specific-exports) in the pdf, if you use Typst you can use of a block `+++{raw:typst}` and for LaTeX `+++{raw:latex}`. 
+
+
+
+## Python functionality test
+```{code-cell} python
+print(2+3)
+```

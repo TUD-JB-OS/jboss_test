@@ -17,7 +17,7 @@ jobs:
     with:
       build_typst_pdf: false
       build_latex_pdf: false
-      execute_python: false
+      execute_python: true
       run_nb_checks: false
       run_fig_checks: false
       run_code_checks: false
