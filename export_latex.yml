@@ -1,7 +1,7 @@
 version: 1
 project:
   exports:
-    - format: latex
+    - format: pdf
       template: https://github.com/TUD-JB-OS/latex_template.git
       output: ./exports/report_tex.pdf
       id: report_tex
