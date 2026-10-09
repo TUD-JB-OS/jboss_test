@@ -16,8 +16,8 @@ jobs:
     uses: TUD-JB-OS/deploy/.github/workflows/jboss.yml@main
     with:
       build_typst_pdf: false
-      build_latex_pdf: true
+      build_latex_pdf: false
       execute_python: true
       run_nb_checks: false
-      run_fig_checks: false
+      run_fig_checks: true
       run_code_checks: false
