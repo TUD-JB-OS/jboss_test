@@ -1,1 +1,3 @@
-This file is not used. Typst output is generated only as artefact. The LaTeX file is made only when the deploy file is triggered manually.
+By default, a Typst pdf is created.
+In the folder .github/workflows you can change to latex as output.
+However, you can not do both typst and latex (it does require too much time)
