@@ -3,10 +3,10 @@ project:
 #   downloads:
 #     - id: thesis-pdf
   exports:
-    - id: thesis-pdf
+    - id: output
       format: typst
       template: https://github.com/TUD-JB-OS/typst_template.git 
-      output: ./exports/thesis.pdf
+      output: ./exports/output.pdf
 
 # ==============================================================================
 # Document Structure and Front Matter

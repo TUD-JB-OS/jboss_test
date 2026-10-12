@@ -3,8 +3,8 @@ project:
   exports:
     - format: pdf
       template: https://github.com/TUD-JB-OS/latex_template.git
-      output: ./exports/report_tex.pdf
-      id: report_tex
+      output: ./exports/output.pdf
+      id: output
     
   # downloads:
   #   - id: report_tex
