@@ -1,3 +1,4 @@
+
 version: 1
 project:
 #   downloads:
@@ -6,7 +7,7 @@ project:
     - format: typst
       template: https://github.com/TUD-JB-OS/typst_template.git 
       output: ./exports/output.pdf
-      id: output
+      id: typst_output
 
 # ==============================================================================
 # Document Structure and Front Matter
@@ -179,6 +180,8 @@ project:
       
       # Graphical-cover alignment for the title box and bottom branding block: left | center. Default: left.
       cover_graphical_alignment: center
+      
+      cover_logo_alignment: left
       
       # Optional override for the translucent title-box base color: black | white | hex color.
       # cover_title_box_color: "#101820"
